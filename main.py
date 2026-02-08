@@ -41,4 +41,4 @@ if __name__ == "__main__":
     # 3. 调用函数
     result = process_order(my_order)
     print(f"\nResult: {result}")
-    print(my_order.model_dump_json())
+    # print(my_order.model_dump_json())
