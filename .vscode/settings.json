@@ -1,0 +1,9 @@
+{
+    // 强制使用 uv 创建的虚拟环境
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    // 核心：开启 Pylance 的严格模式
+    // 这相当于开启了 Java 编译器的报错级别
+    "python.analysis.typeCheckingMode": "strict",
+    // 自动格式化 (保持代码整洁)
+    "editor.formatOnSave": true
+}
